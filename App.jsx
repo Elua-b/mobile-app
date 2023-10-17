@@ -1,4 +1,5 @@
 import ElevatedCards from "./components/ElevatedCards";
+import FancyCard from "./components/FancyCard";
 import FlatCard from "./components/FlatCard";
 
 const { Text, View, Button, StyleSheet, SafeAreaView, ScrollView } = require("react-native");
@@ -10,6 +11,7 @@ function App(){
            
             <FlatCard/>
             <ElevatedCards/>
+            <FancyCard/>
         </ScrollView>
       </SafeAreaView>
     )
