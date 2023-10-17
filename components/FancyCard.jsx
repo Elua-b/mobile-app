@@ -12,6 +12,18 @@ export default function FancyCard() {
           }}
           style={styles.cardImage}
         />
+        <View style={styles.cardBody}>
+          <Text style={styles.cardTitle}>My building</Text>
+          <Text style={styles.cardLabel}>Pink city,jainpur</Text>
+          <Text style={styles.cardDescription}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit accusamus repudiandae earum debitis dolor officiis
+            unde corporis labore porro eum placeat, incidunt sint odit facilis
+            distinctio suscipit similique inventore vitae!
+          </Text>
+
+          <Text style={styles.cardFooter}>Working on it </Text>
+        </View>
       </View>
     </View>
   );
@@ -21,7 +33,12 @@ const styles = StyleSheet.create({
   headingText: {},
   card: {},
   cardElevated: {},
-  cardImage:{
-    height:180,
-  }
+  cardImage: {
+    height: 180,
+  },
+  cardBody: {},
+  cardTitle: {},
+  cardLabel: {},
+  cardDescription: {},
+  cardFooter: {}, 
 });
